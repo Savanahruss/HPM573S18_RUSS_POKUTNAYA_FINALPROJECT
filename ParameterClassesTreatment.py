@@ -72,7 +72,7 @@ class ParametersFixed():
         return self._adjDiscountRate
 
     def get_transition_prob(self, state):
-        return Data.TRANS_MATRIX[state.value]
+        return Data.THERAPY_TRANS_MATRIX[state.value]
 
     def get_annual_state_cost(self, state):
         if state == HealthStats.STROKEDEATH:

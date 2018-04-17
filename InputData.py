@@ -18,19 +18,22 @@ TRANS_MATRIX = [
 ANNUAL_STATE_COST = [
     0.0,      # WELL
     5000.0,   # STROKE
-    2000.0    # POST STROKE
+    200.0    # POST STROKE
     ]
 
 # annual health utility of each health state
 ANNUAL_STATE_UTILITY = [
-    0.75,   # WELL
-    0.50,   # STROKE
-    0.25    # POST STROKE
+    1.0,      # WELL
+    0.8865,   # STROKE
+    0.9       # POST STROKE
     ]
 
+
+PSA_ON = False
+
 # annual drug costs
-NOTHERAPY_COST = 2278.0
-ANTICOAG_COST = 2086.0
+NOTHERAPY_COST = 0.0
+ANTICOAG_COST = 2000.0
 
 # No treatment relative risk
 NOTREATMENT_RR = 0.50
