@@ -29,3 +29,5 @@ SupportMarkov.print_comparative_outcomes(simOutputs_notherapy, simOutputs_antico
 
 # report the CEA results
 SupportMarkov.report_CEA_CBA(simOutputs_notherapy, simOutputs_anticoag)
+
+#I would recommend paying $0.00 for the adoption of this anticoagulation therapy.
