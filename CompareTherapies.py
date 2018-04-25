@@ -7,7 +7,6 @@ cohort_notherapy=MarkovCls.Cohort(
     id=0,
     therapy=P.Therapies.NOTHERAPY
 )
-
 simOutputs_notherapy=cohort_notherapy.simulate()
 
 cohort_anticoag=MarkovCls.Cohort(
